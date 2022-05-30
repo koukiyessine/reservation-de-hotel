@@ -1,0 +1,50 @@
+<html >
+<head>
+<title>Paiement d'hôtel</title>
+<link rel="stylesheet" href="paiement.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+<script type="text/javascript" src="paiement de hotel.js">
+</script>
+<script>
+swal({
+  title:"titre de l'alerte",
+  text:votre message,
+  icon:"success"
+
+
+
+})
+</script>
+
+<div class="container ">
+    <div class="card">
+        <p class="h8 "><b onmouseover="message()">Paiement d'hôtel</b></p>
+              <form name="f1" action="" method="post">         
+           
+               
+                    <p class="text "><b>Nom d'utilisateur</b></p> <input class="form-control" type="text" name="pn" placeholder="Name"  id="name" required>
+               
+            
+           
+                    <p class="text "><b>Numéro de carte </b></p> <input class="form-control" type="text"  name="cnb" placeholder="1234 5678 435678" id="name" required>
+            
+            
+                    <p class="text "><b>Expiration</b></p> <input class="form-control" type="date" name="exp" placeholder="dd/MM/YYYY"  id="name" required>
+                
+            
+                
+                    <p class="text"><b>mdp de carte</B></p> <input class="form-control" type="password"  name="cvc"   placeholder="****************" id="name" required>
+               
+            
+            
+                <div class="btn btn-primary "> <a href="#" onclick="verif()"><span class="ps-3"><b>Payer</b></span> </a></div>
+			
+            
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

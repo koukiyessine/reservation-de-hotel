@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="inscription.css">
+<title> inscription</title>
+</head>
+<script src="dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="inscription.js">
+
+</script>
+<body>
+<center>
+<fieldset>
+<form name="f1" method="get">
+<h1>Inscrivez-vous !</h1>
+<hr>
+<table width="500">
+<form name="f1" action="" method="post" >
+<tr>
+<td><b>Nom</b> </td><td><input type="text" name="nom" placeholder="nom" ><br><br></td></tr>
+<tr>
+<td> <b>prenom</b></td><td><input type="text" name="pre"  placeholder="prenom"  required><br><br></td></tr>
+<tr>
+<td><b>Adresse</b> </td><td><input type="adresse" name="adr" value="" placeholder="21 rue tunisia 1950" required><br><br></td></tr>
+<tr>
+<td><b>N° telephone</b> </td><td><input type="tel" name="tel" placeholder="21150840"  required><br><br></td></tr>
+<tr>
+<td><b>date de naissence</b></td><td><input type="date" name="dn" placeholder="dd/mm/aa"  required><br><br></td></tr>
+<tr>
+<td><b>Fonction </b></td><td><input type="text" name="ft" placeholder="work"  required><br><br></td></tr>
+<tr>
+<td><b>Pays</b> </td><td><input type="text" name="py" placeholder="tunisia" required><br><br></td></tr>
+<tr>
+<td><b>Date d’arrivée</b> </td><td><input type="date" name="da" placeholder="dd/mm/aa"  required><br><br></td></tr>
+<tr>
+<td><b>Date de départ</b> </td><td><input type="date" name="dd" placeholder="dd/mm/aa" required><br><br></td></tr>
+<tr>
+<td><b>Nombre de nuits</b></td><td><input type="text" name="nbnu"  placeholder="n° nuits" required><br><br></td></tr>
+
+<tr>
+<td><b>Nombre de chambre </b></td><td><input type="text" name="nbch" placeholder="n° chambres"><br><br></td></tr>
+<tr>
+<td><b>Nombre de personne</b></td><td><input type="text" name="nbp" placeholder="n° personnes"><br><br></td></tr>
+<tr>
+<td colspan="2"><a href="paiement de hotel.html"  onmouseover="verif()"><input type="button" id="submit" value="s'inscrire" ></a></td></tr>
+</form>
+</table>
+
+            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+              
+              <span><a href="https://www.lacigaletabarka.com/en/contact"><b>Contact</b></a></span>
+              <span><a href="https://partner.booking.com/en-gb/community/booking-advice-and-updates/gdt-and-bidding"><b>Privacy & terms</b></a></span>
+            </div>
+</fieldset>
+</center>
+</body>
+</html>

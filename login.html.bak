@@ -1,0 +1,56 @@
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>connexion</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<script type="text/javascript" src="login.js">
+</script>
+<body>
+   
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="#" rel="dofollow" onmouseover="message()">connexion</a></h1>
+        </div>
+        
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <span class="padding-bottom"><b>Connectez-vous à votre compte</b></span>
+              <form id="stripe-login" name="f1" method="action"   >
+                <div class="field padding-bottom ">
+                  <label for="email"><b>E-mail</b></label>
+                  <input type="text"  placeholder="mail@hotmail.tn" name="eml"  required>
+                </div>
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="password"   ><b>Mot de passe</b></label>
+                    <div class="reset-pass">
+                      
+                    </div>
+                  </div>
+                  <input type="password"   placeholder="**********"  name="pass" required>
+                </div>
+
+                <div class="field padding-bottom--24">
+                 <a href="inscription.html"> <input type="button"  value="Continuez"  onmouseover="verif()" ></div>
+				  </a><div class="field padding-bottom--24">
+				  <input type="reset"  value="Cancel" >
+                </div>
+                         <div class="footer-link padding-top--24">
+          
+            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+              
+              <span><a href="https://www.lacigaletabarka.com/en/contact"><b>Contacter</b></a></span>
+              <span><a href="https://www.booking.com/hotel/tn/tabarka-beach.ar.html?aid=356980;label=gog235jc-1DCAso4gFCDXRhYmFya2EtYmVhY2hIM1gDaOIBiAEBmAEBuAEXyAEM2AED6AEBiAIBqAIDuAKM89CSBsACAdICJGRlNmM3N2RlLTEwZTgtNDA0Mi1hMWYyLWM2YzMzOWNhNzE4YdgCBOACAQ;sid=ab95c911852582a5ca18287c5732663e;dist=0&
+			  keep_landing=1&sb_price_type=total&type=total&"><b>Confidentialité et conditions</b></a></span>
+            </div>
+          </div>
+              </form>
+            </div>
+          </div>
+
+        
+     
+
+</body>
+
+</html>
